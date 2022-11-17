@@ -1,0 +1,16 @@
+React List & Keys
+===================
+Generally data exists in the form of List
+We may also require to transform the incoming data before rending
+a. Numbers may be transformed using arithmetic operators
+b. String may be transformed usin concatenate, substr, trim spaces etc.,
+c. Lists are looped through and transformed and further rendered to the user
+
+Keys:
+=====
+Keys help React identify which items have changed, are added or removed
+Therefore, Keys should be given to the elements inside the array to give elements a stable identify
+a. number itself can be passed as a key <li key={number.toString()}>{number}</li>
+b. another way is: <li key={number.id}>{number}</li>
+c. least preferred alternative if we dont have unique id in the list:
+<li key={index}>{number}</li>
