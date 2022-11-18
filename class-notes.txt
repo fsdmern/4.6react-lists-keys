@@ -3,7 +3,7 @@ React List & Keys
 Generally data exists in the form of List
 We may also require to transform the incoming data before rending
 a. Numbers may be transformed using arithmetic operators
-b. String may be transformed usin concatenate, substr, trim spaces etc.,
+b. Strings may be transformed usin concatenate, substr, trim spaces etc.,
 c. Lists are looped through and transformed and further rendered to the user
 
 Keys:
